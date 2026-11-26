@@ -1,0 +1,19 @@
+{
+  "name": "nullpointer-game-over-2026",
+  "version": "1.0.0",
+  "description": "NULLPOINTER — a 5-minute final boss fight in Decentraland. Entry for GAME OVER 2026: The Final Boss Fight.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "sdk-commands start",
+    "build": "sdk-commands build",
+    "deploy:world": "sdk-commands deploy --target-content https://worlds-content-server.decentraland.org"
+  },
+  "dependencies": {
+    "@dcl/sdk": "7.33.0"
+  },
+  "devDependencies": {
+    "@dcl/sdk-commands": "7.33.0",
+    "typescript": "^5.6.3"
+  }
+}

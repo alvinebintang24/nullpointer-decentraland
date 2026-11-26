@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "bin",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "jsxFactory": "ReactEcs.createElement",
+    "jsxFragmentFactory": "ReactEcs.Fragment",
+    "types": []
+  },
+  "include": ["src"]
+}

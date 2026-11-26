@@ -1,0 +1,36 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "NULLPOINTER — Game Over 2026",
+    "description": "A five-minute final boss fight. Destroy NULLPOINTER, the Devourer of Scenes. Click to shoot, dodge the nova rings, break crystals for OVERCHARGE.",
+    "navmapThumbnail": ""
+  },
+  "owner": "",
+  "contact": {
+    "name": "Vinky Project",
+    "email": ""
+  },
+  "scene": {
+    "parcels": ["0,0"],
+    "base": "0,0"
+  },
+  "main": "bin/index.js",
+  "spawnPoints": [
+    {
+      "name": "spawn",
+      "default": true,
+      "position": { "x": 8, "y": 0, "z": 14.2 },
+      "cameraTarget": { "x": 8, "y": 2.5, "z": 8 }
+    }
+  ],
+  "worldConfiguration": {
+    "name": "REPLACE-WITH-ASSIGNED-WORLD.dcl.eth"
+  },
+  "allowedMediaHostnames": [],
+  "policy": {
+    "fly": false,
+    "voiceChat": "enabled",
+    "textChat": "enabled"
+  }
+}
